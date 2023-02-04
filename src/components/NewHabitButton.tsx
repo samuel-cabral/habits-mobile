@@ -1,9 +1,9 @@
-import { Text, TouchableOpacity, View } from 'react-native';
-import { Feather } from  '@expo/vector-icons';
+import { Text, TouchableOpacity } from 'react-native';
+import { Feather } from '@expo/vector-icons';
 import colors from 'tailwindcss/colors'
 
-
 export function NewHabitButton() {
+
   return (
     <TouchableOpacity
       activeOpacity={0.7}
