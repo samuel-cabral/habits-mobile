@@ -45,7 +45,7 @@ export function New() {
           Qual seu comprometimento?
         </Text>
         <TextInput
-          className="h-12 pl-4 rounded-lg mt-3 bg-zinc-900 text-white focus:border-2 focus:border-green-600"
+          className="h-12 pl-4 rounded-lg mt-3 bg-zinc-900 text-white border-2 border-zinc-800 focus:border-green-600"
           placeholder="Exercícios, dormir bem, etc..."
           placeholderTextColor={colors.zinc[600]}
         />
@@ -65,7 +65,7 @@ export function New() {
           )
         })}
 
-        <TouchableOpacity className="w-full h-14 flex-row items-center bg-green-500 rounded-lg items-center justify-center">
+        <TouchableOpacity className="w-full h-14 mt-6 flex-row items-center bg-green-500 rounded-lg items-center justify-center">
           <Feather name="check" size={20} color={colors.white} />
           <Text className="ml-2 font-semibold text-base text-white">
             Confirmar
