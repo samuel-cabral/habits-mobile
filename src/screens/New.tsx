@@ -65,7 +65,7 @@ export function New() {
           )
         })}
 
-        <TouchableOpacity className="w-full h-14 mt-6 flex-row items-center bg-green-500 rounded-lg items-center justify-center">
+        <TouchableOpacity className="w-full h-14 mt-6 flex-row items-center bg-green-500 rounded-lg justify-center">
           <Feather name="check" size={20} color={colors.white} />
           <Text className="ml-2 font-semibold text-base text-white">
             Confirmar
